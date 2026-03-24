@@ -1,4 +1,7 @@
 🥗 Monteiro Consultoria - Segurança dos Alimentos
+
+
+
 Landing page profissional desenvolvida para a Monteiro Consultoria, focada em serviços de gestão da qualidade, segurança alimentar e conformidade sanitária para empresas do setor de alimentos.
 
 ✨ Demonstração do Projeto
