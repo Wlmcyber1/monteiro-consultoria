@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monteiro Consultoria - Segurança dos Alimentos</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="header-container">
+        <div class="logo">
+          <img src="imagens/logo.jpg" alt="Monteiro Consultoria" />
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#servico">Serviços</a></li>
+            <li><a href="#video">Na prática</a></li>
+            <li><a href="#equipe">Equipe</a></li>
+            <li><a href="#contatos">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="inicio" class="hero-text">
+      <div class="container">
+        <h1>Excelência em Gestão da Qualidade</h1>
+        <p>
+          Transformamos a gestão do seu negócio com foco em qualidade,
+          conformidade sanitária e eficiência técnica.
+        </p>
+        <a href="#contatos" class="btn-chamada">Solicitar Consultoria</a>
+      </div>
+    </section>
+
+    <section class="diferenciais">
+      <div class="container faixa-diferenciais">
+        <div class="diferencial-item">
+          <i class="fas fa-check-circle"></i>
+          <span>100% de Aprovação em Fiscalizações</span>
+        </div>
+        <div class="diferencial-item">
+          <i class="fas fa-clock"></i>
+          <span>Atendimento Ágil e Personalizado</span>
+        </div>
+        <div class="diferencial-item">
+          <i class="fas fa-graduation-cap"></i>
+          <span>Equipe com Formação Técnica de Elite</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="servico" class="servico">
+      <div class="container">
+        <h2 class="titulo-sessao">Soluções Completas</h2>
+        <div class="servico-caixa">
+          <div class="servico-card">
+            <i class="fas fa-shield-virus servico-icon"></i>
+            <h3>Segurança dos Alimentos</h3>
+            <div class="descricao-completa">
+              <p>
+                Adequação total às normas da ANVISA, eliminando riscos de multas
+                e garantindo a saúde dos seus clientes.
+              </p>
+            </div>
+          </div>
+          <div class="servico-card">
+            <i class="fas fa-chalkboard-user servico-icon"></i>
+            <h3>Treinamento</h3>
+            <div class="descricao-completa">
+              <p>
+                Capacitação prática para sua equipe sobre manipulação correta,
+                higiene e prevenção de contaminação.
+              </p>
+            </div>
+          </div>
+          <div class="servico-card">
+            <i class="fas fa-file-signature servico-icon"></i>
+            <h3>Manual e POPs</h3>
+            <div class="descricao-completa">
+              <p>
+                Criação de toda a documentação sanitária obrigatória,
+                personalizada para a realidade do seu negócio.
+              </p>
+            </div>
+          </div>
+          <div class="servico-card">
+            <i class="fas fa-utensils servico-icon"></i>
+            <h3>Cardápios</h3>
+            <div class="descricao-completa">
+              <p>
+                Fichas técnicas precisas e rotulagem nutricional para padronizar
+                sua produção e controlar custos.
+              </p>
+            </div>
+          </div>
+          <div class="servico-card">
+            <i class="fas fa-clipboard-check servico-icon"></i>
+            <h3>Auditorias</h3>
+            <div class="descricao-completa">
+              <p>
+                Vistorias técnicas rigorosas para identificar e corrigir falhas
+                antes da chegada da fiscalização oficial.
+              </p>
+            </div>
+          </div>
+          <div class="servico-card">
+            <i class="fas fa-certificate servico-icon"></i>
+            <h3>Assessoria</h3>
+            <div class="descricao-completa">
+              <p>
+                Suporte completo para obtenção de alvarás e regularização
+                definitiva junto aos órgãos públicos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="video" class="hero-video">
+      <div class="container">
+        <h2 class="titulo-sessao">Consultoria na Prática</h2>
+        <div class="video-moldura">
+          <video id="meuVideo" preload="metadata">
+            <source
+              src="imagens/WhatsApp Video 2026-03-24 at 12.30.46.mp4"
+              type="video/mp4"
+            />
+            Seu navegador não suporta vídeos.
+          </video>
+          <div class="controles-video">
+            <button id="playPause" class="btn-video">
+              <i class="fas fa-play"></i>
+            </button>
+            <div class="video-progresso">
+              <div id="barraProgresso" class="progresso-preenchido"></div>
+            </div>
+            <button id="mutar" class="btn-video">
+              <i class="fas fa-volume-up"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="equipe" class="equipe">
+      <div class="container">
+        <h2 class="titulo-sessao">Nossa Equipe Especializada</h2>
+        <div class="equipe-dinamica">
+          <div class="membro-row">
+            <div class="membro-img-box">
+              <img src="imagens/novafoto.jpeg" alt="Antônio Monteiro" />
+            </div>
+            <div class="membro-info">
+              <h3>Antônio Monteiro</h3>
+              <span class="cargo">Especialista Responsável</span>
+              <p>
+                Engenheiro de Alimentos formado pela
+                <strong>UFC (Universidade Federal do Ceará)</strong>. Lidera a
+                Monteiro Consultoria com foco em resultados técnicos e
+                conformidade rigorosa com as normas sanitárias vigentes.
+              </p>
+            </div>
+          </div>
+          <div class="membro-row">
+            <div class="membro-img-box">
+              <img src="erisvan.png" alt="Irisney" />
+            </div>
+            <div class="membro-info">
+              <h3>Irisney</h3>
+              <span class="cargo">Consultoria Técnica</span>
+              <p>
+                Especialista em processos operacionais e treinamentos de equipe,
+                garantindo que as normas sejam aplicadas de forma prática e
+                eficiente no dia a dia da produção de alimentos.
+              </p>
+            </div>
+          </div>
+          <div class="membro-row">
+            <div class="membro-img-box">
+              <img src="fran.png" alt="Fran" />
+            </div>
+            <div class="membro-info">
+              <h3>Fran</h3>
+              <span class="cargo">Consultoria Técnica</span>
+              <p>
+                Focada em auditoria e documentação técnica, como POPs e Manuais
+                de Boas Práticas, assegurando a organização necessária para
+                proteger seu estabelecimento contra sanções.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contatos" class="sessao-contato">
+      <div class="container contato-flex">
+        <div class="contato-imagem">
+          <img
+            src="imagens/antonio.png"
+            alt="Antônio Monteiro"
+            class="foto-contato"
+          />
+        </div>
+        <div class="contato-formulario">
+          <div class="box-formulario">
+            <h2 style="margin-bottom: 20px; color: var(--azul-monteiro)">
+              Entre em Contato
+            </h2>
+            <form id="formulario">
+              <input
+                type="text"
+                placeholder="Seu Nome / Empresa"
+                class="campo-form"
+                id="nome"
+                required
+              />
+              <textarea
+                class="campo-form"
+                placeholder="Como podemos ajudar o seu negócio?"
+                id="mensagem"
+                rows="4"
+                required
+              ></textarea>
+              <button type="submit">Enviar pelo WhatsApp</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="social-links">
+          <a
+            href="https://www.instagram.com/monteiroconsultoriaa/?hl=pt-br"
+            target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+        <p>
+          &copy; 2026 Monteiro Consultoria Alimentar. Todos os direitos
+          reservados.
+        </p>
+        <a href="#" class="politica">Política de Privacidade</a>
+      </div>
+    </footer>
+
+    <script>
+      // Navbar Transparente ao Rolar
+      window.addEventListener("scroll", function () {
+        const nav = document.querySelector(".navbar");
+        if (window.scrollY > 50) {
+          nav.classList.add("rolagem");
+        } else {
+          nav.classList.remove("rolagem");
+        }
+      });
+
+      // Redirecionamento WhatsApp
+      document.getElementById("formulario").addEventListener("submit", (e) => {
+        e.preventDefault();
+        const nome = document.getElementById("nome").value;
+        const mensagem = document.getElementById("mensagem").value;
+        const texto = encodeURIComponent(
+          `Olá! Me chamo ${nome}. Gostaria de informações sobre: ${mensagem}`,
+        );
+        window.open(`https://wa.me/558587159919?text=${texto}`, "_blank");
+      });
+
+      // Lógica do Vídeo Customizado
+      const video = document.getElementById("meuVideo");
+      const btnPlay = document.getElementById("playPause");
+      const btnMute = document.getElementById("mutar");
+      const barra = document.getElementById("barraProgresso");
+
+      btnPlay.addEventListener("click", () => {
+        if (video.paused) {
+          video.play();
+          btnPlay.innerHTML = '<i class="fas fa-pause"></i>';
+        } else {
+          video.pause();
+          btnPlay.innerHTML = '<i class="fas fa-play"></i>';
+        }
+      });
+
+      btnMute.addEventListener("click", () => {
+        video.muted = !video.muted;
+        btnMute.innerHTML = video.muted
+          ? '<i class="fas fa-volume-mute"></i>'
+          : '<i class="fas fa-volume-up"></i>';
+      });
+
+      video.addEventListener("timeupdate", () => {
+        const percent = (video.currentTime / video.duration) * 100;
+        barra.style.width = `${percent}%`;
+      });
+    </script>
+  </body>
+</html>
