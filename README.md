@@ -62,10 +62,14 @@ Clone este repositório:
 
 Bash
 git clone https://github.com/Wlmcyber1/monteiro-consultoria.git
+
+
 Navegue até a pasta:
 
 Bash
 cd monteiro-consultoria
+
+
 Abra o arquivo index.html no seu navegador de preferência.
 
 
