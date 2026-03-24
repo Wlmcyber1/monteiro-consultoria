@@ -74,6 +74,8 @@ Abra o arquivo index.html no seu navegador de preferência.
 
 
 👨‍💻 Equipe e Desenvolvimento
+
+
 Este projeto foi desenvolvido por Leticia Moreira, como solução de presença digital para a equipe da Monteiro Consultoria, composta por:
 
 Antônio Monteiro (Engenheiro de Alimentos - UFC)
