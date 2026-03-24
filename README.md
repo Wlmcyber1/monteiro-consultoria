@@ -5,22 +5,39 @@ Landing page profissional desenvolvida para a Monteiro Consultoria, focada em se
 O site foi construído com foco na experiência do usuário (UX) e conversão, apresentando os serviços de forma clara e facilitando o contato direto com os especialistas.
 
 Principais Diferenciais:
+
+
 Design Profissional: Paleta de cores baseada na identidade visual da empresa (Azul Monteiro e Laranja).
 
+
+
 Totalmente Responsivo: Navegação otimizada para Desktop, Tablets e Smartphones.
+
+
 
 Player de Vídeo Customizado: Controle total sobre a reprodução, volume e progresso do vídeo institucional sem depender de players externos pesados.
 
 
 
 🚀 Funcionalidades Técnicas
+
+
+
 Menu Inteligente: Navbar que altera sua opacidade ao rolar a página (scroll event), melhorando a visibilidade do conteúdo.
+
+
 
 Integração WhatsApp: Formulário de contato dinâmico que captura os dados e abre automaticamente o chat do WhatsApp com uma mensagem pré-configurada.
 
+
+
 Seção de Serviços Interativa: Cards que revelam a descrição detalhada ao passar o mouse (hover effects com transições suaves).
 
+
+
 Ancoragem de Navegação: Links internos que permitem uma navegação fluida entre as seções (Início, Serviços, Equipe e Contato).
+
+
 
 
 🛠️ Tecnologias Utilizadas
