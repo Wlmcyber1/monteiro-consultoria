@@ -5,6 +5,8 @@
 Landing page profissional desenvolvida para a Monteiro Consultoria, focada em serviços de gestão da qualidade, segurança alimentar e conformidade sanitária para empresas do setor de alimentos.
 
 ✨ Demonstração do Projeto
+
+
 O site foi construído com foco na experiência do usuário (UX) e conversão, apresentando os serviços de forma clara e facilitando o contato direto com os especialistas.
 
 Principais Diferenciais:
